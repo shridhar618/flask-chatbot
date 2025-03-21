@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 flask
 gunicorn
 requests
 google-generativeai
-=======
-flask
-gunicorn
-requests
-google-generativeai
->>>>>>> 030aff055eacb7209c97982a3635857fd2980b5c
+
