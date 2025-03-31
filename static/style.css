@@ -23,14 +23,14 @@ body {
 
 /* Dark Theme */
 .dark-theme {
-    background: #121212;
+    background: #2e2e2e;
     color: white;
 }
 
 /* Chat Container */
 .chat-container {
     width: 600px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     overflow: hidden;
@@ -45,7 +45,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.2);
     font-size: 18px;
 }
 
@@ -109,4 +109,16 @@ button {
     margin-left: 5px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+.dark-theme footer {
+    color: #999;
 }
